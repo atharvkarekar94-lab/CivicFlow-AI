@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Production build outputs
+dist/
+dist-ssr/
+**/dist/
+
+# Local Environment & Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs & Temp files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# Editor & OS directories
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.sln
+
+# Dependencies
+node_modules/
+**/node_modules/
